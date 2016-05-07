@@ -3,7 +3,7 @@
 A basic Prolog compiler & interpreter to WAM machine code
 
 # Description
-That implementation is a basic compiler to wam machine code and interpreter of that output code.
+That implementation is a basic compiler to [wam machine code](http://www.cvc.uab.es/shared/teach/a25002/wambook.pdf) and interpreter of that output code.
 As a first version work expecting only oneline of Prolog code(Program or Query) as input.
 
 The main.c file is making the central management. Open and validate the input file. If all are right then calls the analyser which is looking for syntax errors. In case of a syntax error returns a error message and the execution stops, otherwise returns OK and continues to compiling precedure.
@@ -15,9 +15,11 @@ Interpreter's expected result is Yes/No
 # Requirements
  - Gcc (4+)
 
-# Compile
+# Compilation
+Use makefile, just run the following command
 `make`
 
-# Execute a simple example
-`./prologIC` use as input example.pl
+# Execution
+`./prologIC` 
+use as input example.pl
 
