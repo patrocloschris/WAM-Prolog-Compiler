@@ -1,0 +1,1 @@
+int analysers(char *,int);
